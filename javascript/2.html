@@ -1,0 +1,28 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <style>
+    .em { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <ol id="target">
+    <li class="em">html</li>
+    <li>css</li>
+    <li>javascript</li>
+  </ol>
+  <ul>
+    <li>김웅빈</li>
+    <li class="em">한이름</li>
+    <li>하하하</li>
+    <li>땡땡땡</li>
+  </ul>
+  <!--버튼을 클릭하면 em선택자 효과를 줄려고 한다.  -->
+  <input type="button" value="강조" class="btn btn-primary"
+    onclick="document.getElementById('target').className='em'" />
+</body>
+</html>
