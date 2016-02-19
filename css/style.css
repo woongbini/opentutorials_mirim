@@ -1,6 +1,10 @@
 body{
   margin:0;
 }
+#control {
+   padding-right: 20px;
+   float: right;
+}
 body.white {
    background-color: white;
 }
@@ -8,7 +12,7 @@ body.black {
    background-color: black;
 }
 h1 {
-  border-bottom:1px solid red;
+  border-bottom:0px solid red;
   padding:20px;
   margin-bottom: 0;
 }
@@ -16,7 +20,7 @@ h1>a{
   text-decoration: none;
 }
 ol{
-  border-right:1px solid red;
+  border-right:0px ;
   width: 150px;
   float:left;
   margin-top:0;
